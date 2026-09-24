@@ -1,0 +1,120 @@
+item,block,period_start,period_end,value_musd,doc_id,locator
+Revenue,Q4'24 (3M),2024-10-01,2024-12-31,747,D02,Statements of Operations
+Revenue,Q2'25 (3M),2025-04-01,2025-06-30,1212,D01,Statements of Operations
+Revenue,6M'25,2025-01-01,2025-06-30,2194,D01,Statements of Operations
+Revenue,Q4'25 (3M),2025-10-01,2025-12-31,1572,D02,Statements of Operations
+Revenue,FY25,2025-01-01,2025-12-31,5131,D02,Statements of Operations
+Revenue,Q2'26 (3M),2026-04-01,2026-06-30,2575,D01,Statements of Operations
+Revenue,6M'26,2026-01-01,2026-06-30,4653,D01,Statements of Operations
+Cost of revenue,Q4'24 (3M),2024-10-01,2024-12-31,182,D02,Statements of Operations
+Cost of revenue,Q2'25 (3M),2025-04-01,2025-06-30,313,D01,Statements of Operations
+Cost of revenue,6M'25,2025-01-01,2025-06-30,575,D01,Statements of Operations
+Cost of revenue,Q4'25 (3M),2025-10-01,2025-12-31,509,D02,Statements of Operations
+Cost of revenue,FY25,2025-01-01,2025-12-31,1453,D02,Statements of Operations
+Cost of revenue,Q2'26 (3M),2026-04-01,2026-06-30,879,D01,Statements of Operations
+Cost of revenue,6M'26,2026-01-01,2026-06-30,1595,D01,Statements of Operations
+Technology and infrastructure,Q4'24 (3M),2024-10-01,2024-12-31,398,D02,Statements of Operations
+Technology and infrastructure,Q2'25 (3M),2025-04-01,2025-06-30,670,D01,Statements of Operations
+Technology and infrastructure,6M'25,2025-01-01,2025-06-30,1231,D01,Statements of Operations
+Technology and infrastructure,Q4'25 (3M),2025-10-01,2025-12-31,950,D02,Statements of Operations
+Technology and infrastructure,FY25,2025-01-01,2025-12-31,2929,D02,Statements of Operations
+Technology and infrastructure,Q2'26 (3M),2026-04-01,2026-06-30,1507,D01,Statements of Operations
+Technology and infrastructure,6M'26,2026-01-01,2026-06-30,2780,D01,Statements of Operations
+Sales and marketing,Q4'24 (3M),2024-10-01,2024-12-31,6,D02,Statements of Operations
+Sales and marketing,Q2'25 (3M),2025-04-01,2025-06-30,36,D01,Statements of Operations
+Sales and marketing,6M'25,2025-01-01,2025-06-30,47,D01,Statements of Operations
+Sales and marketing,Q4'25 (3M),2025-10-01,2025-12-31,52,D02,Statements of Operations
+Sales and marketing,FY25,2025-01-01,2025-12-31,144,D02,Statements of Operations
+Sales and marketing,Q2'26 (3M),2026-04-01,2026-06-30,60,D01,Statements of Operations
+Sales and marketing,6M'26,2026-01-01,2026-06-30,129,D01,Statements of Operations
+General and administrative,Q4'24 (3M),2024-10-01,2024-12-31,48,D02,Statements of Operations
+General and administrative,Q2'25 (3M),2025-04-01,2025-06-30,174,D01,Statements of Operations
+General and administrative,6M'25,2025-01-01,2025-06-30,349,D01,Statements of Operations
+General and administrative,Q4'25 (3M),2025-10-01,2025-12-31,150,D02,Statements of Operations
+General and administrative,FY25,2025-01-01,2025-12-31,651,D02,Statements of Operations
+General and administrative,Q2'26 (3M),2026-04-01,2026-06-30,178,D01,Statements of Operations
+General and administrative,6M'26,2026-01-01,2026-06-30,342,D01,Statements of Operations
+Total operating expenses,Q4'24 (3M),2024-10-01,2024-12-31,634,D02,Statements of Operations
+Total operating expenses,Q2'25 (3M),2025-04-01,2025-06-30,1193,D01,Statements of Operations
+Total operating expenses,6M'25,2025-01-01,2025-06-30,2202,D01,Statements of Operations
+Total operating expenses,Q4'25 (3M),2025-10-01,2025-12-31,1661,D02,Statements of Operations
+Total operating expenses,FY25,2025-01-01,2025-12-31,5177,D02,Statements of Operations
+Total operating expenses,Q2'26 (3M),2026-04-01,2026-06-30,2624,D01,Statements of Operations
+Total operating expenses,6M'26,2026-01-01,2026-06-30,4846,D01,Statements of Operations
+Operating income (loss),Q4'24 (3M),2024-10-01,2024-12-31,113,D02,Statements of Operations
+Operating income (loss),Q2'25 (3M),2025-04-01,2025-06-30,19,D01,Statements of Operations
+Operating income (loss),6M'25,2025-01-01,2025-06-30,-8,D01,Statements of Operations
+Operating income (loss),Q4'25 (3M),2025-10-01,2025-12-31,-89,D02,Statements of Operations
+Operating income (loss),FY25,2025-01-01,2025-12-31,-46,D02,Statements of Operations
+Operating income (loss),Q2'26 (3M),2026-04-01,2026-06-30,-49,D01,Statements of Operations
+Operating income (loss),6M'26,2026-01-01,2026-06-30,-193,D01,Statements of Operations
+"Interest expense, net",Q4'24 (3M),2024-10-01,2024-12-31,149,D02,Statements of Operations (shown negative; stored as positive expense)
+"Interest expense, net",Q2'25 (3M),2025-04-01,2025-06-30,267,D01,Statements of Operations (shown negative; stored as positive expense)
+"Interest expense, net",6M'25,2025-01-01,2025-06-30,531,D01,Statements of Operations (shown negative; stored as positive expense)
+"Interest expense, net",Q4'25 (3M),2025-10-01,2025-12-31,388,D02,Statements of Operations (shown negative; stored as positive expense)
+"Interest expense, net",FY25,2025-01-01,2025-12-31,1229,D02,Statements of Operations (shown negative; stored as positive expense)
+"Interest expense, net",Q2'26 (3M),2026-04-01,2026-06-30,640,D01,Statements of Operations (shown negative; stored as positive expense)
+"Interest expense, net",6M'26,2026-01-01,2026-06-30,1176,D01,Statements of Operations (shown negative; stored as positive expense)
+Net loss,Q4'24 (3M),2024-10-01,2024-12-31,-51,D02,Statements of Operations
+Net loss,Q2'25 (3M),2025-04-01,2025-06-30,-290,D01,Statements of Operations
+Net loss,6M'25,2025-01-01,2025-06-30,-605,D01,Statements of Operations
+Net loss,Q4'25 (3M),2025-10-01,2025-12-31,-452,D02,Statements of Operations
+Net loss,FY25,2025-01-01,2025-12-31,-1167,D02,Statements of Operations
+Net loss,Q2'26 (3M),2026-04-01,2026-06-30,-626,D01,Statements of Operations
+Net loss,6M'26,2026-01-01,2026-06-30,-1366,D01,Statements of Operations
+Depreciation and amortization,Q4'24 (3M),2024-10-01,2024-12-31,365,D02,Statements of Cash Flows
+Depreciation and amortization,Q2'25 (3M),2025-04-01,2025-06-30,560,D01,Statements of Cash Flows
+Depreciation and amortization,6M'25,2025-01-01,2025-06-30,1003,D01,Statements of Cash Flows
+Depreciation and amortization,Q4'25 (3M),2025-10-01,2025-12-31,821,D02,Statements of Cash Flows
+Depreciation and amortization,FY25,2025-01-01,2025-12-31,2454,D02,Statements of Cash Flows
+Depreciation and amortization,Q2'26 (3M),2026-04-01,2026-06-30,1393,D01,Statements of Cash Flows
+Depreciation and amortization,6M'26,2026-01-01,2026-06-30,2540,D01,Statements of Cash Flows
+Stock-based compensation,Q4'24 (3M),2024-10-01,2024-12-31,8,D02,Statements of Cash Flows
+Stock-based compensation,Q2'25 (3M),2025-04-01,2025-06-30,145,D01,Statements of Cash Flows
+Stock-based compensation,6M'25,2025-01-01,2025-06-30,329,D01,Statements of Cash Flows
+Stock-based compensation,Q4'25 (3M),2025-10-01,2025-12-31,157,D02,Statements of Cash Flows
+Stock-based compensation,FY25,2025-01-01,2025-12-31,630,D02,Statements of Cash Flows
+Stock-based compensation,Q2'26 (3M),2026-04-01,2026-06-30,165,D01,Statements of Cash Flows
+Stock-based compensation,6M'26,2026-01-01,2026-06-30,318,D01,Statements of Cash Flows
+Adjusted EBITDA,Q4'24 (3M),2024-10-01,2024-12-31,486,D02,Non-GAAP reconciliation
+Adjusted EBITDA,Q2'25 (3M),2025-04-01,2025-06-30,753,D01,Non-GAAP reconciliation
+Adjusted EBITDA,6M'25,2025-01-01,2025-06-30,1360,D01,Non-GAAP reconciliation
+Adjusted EBITDA,Q4'25 (3M),2025-10-01,2025-12-31,898,D02,Non-GAAP reconciliation
+Adjusted EBITDA,FY25,2025-01-01,2025-12-31,3093,D02,Non-GAAP reconciliation
+Adjusted EBITDA,Q2'26 (3M),2026-04-01,2026-06-30,1510,D01,Non-GAAP reconciliation
+Adjusted EBITDA,6M'26,2026-01-01,2026-06-30,2667,D01,Non-GAAP reconciliation
+Adjusted operating income,Q4'24 (3M),2024-10-01,2024-12-31,121,D02,Non-GAAP reconciliation
+Adjusted operating income,Q2'25 (3M),2025-04-01,2025-06-30,200,D01,Non-GAAP reconciliation
+Adjusted operating income,6M'25,2025-01-01,2025-06-30,363,D01,Non-GAAP reconciliation
+Adjusted operating income,Q4'25 (3M),2025-10-01,2025-12-31,88,D02,Non-GAAP reconciliation
+Adjusted operating income,FY25,2025-01-01,2025-12-31,666,D02,Non-GAAP reconciliation
+Adjusted operating income,Q2'26 (3M),2026-04-01,2026-06-30,128,D01,Non-GAAP reconciliation
+Adjusted operating income,6M'26,2026-01-01,2026-06-30,149,D01,Non-GAAP reconciliation
+Net cash from operating activities,Q4'24 (3M),2024-10-01,2024-12-31,187,D02,Statements of Cash Flows
+Net cash from operating activities,Q2'25 (3M),2025-04-01,2025-06-30,-251,D01,Statements of Cash Flows
+Net cash from operating activities,6M'25,2025-01-01,2025-06-30,-190,D01,Statements of Cash Flows
+Net cash from operating activities,Q4'25 (3M),2025-10-01,2025-12-31,1559,D02,Statements of Cash Flows
+Net cash from operating activities,FY25,2025-01-01,2025-12-31,3058,D02,Statements of Cash Flows
+Net cash from operating activities,Q2'26 (3M),2026-04-01,2026-06-30,679,D01,Statements of Cash Flows
+Net cash from operating activities,6M'26,2026-01-01,2026-06-30,3663,D01,Statements of Cash Flows
+Purchase of PP&E (cash capex),Q4'24 (3M),2024-10-01,2024-12-31,3498,D02,Statements of Cash Flows
+Purchase of PP&E (cash capex),Q2'25 (3M),2025-04-01,2025-06-30,2453,D01,Statements of Cash Flows
+Purchase of PP&E (cash capex),6M'25,2025-01-01,2025-06-30,3860,D01,Statements of Cash Flows
+Purchase of PP&E (cash capex),Q4'25 (3M),2025-10-01,2025-12-31,4060,D02,Statements of Cash Flows
+Purchase of PP&E (cash capex),FY25,2025-01-01,2025-12-31,10309,D02,Statements of Cash Flows
+Purchase of PP&E (cash capex),Q2'26 (3M),2026-04-01,2026-06-30,6422,D01,Statements of Cash Flows
+Purchase of PP&E (cash capex),6M'26,2026-01-01,2026-06-30,14117,D01,Statements of Cash Flows
+"Proceeds from issuance of debt, net",Q4'24 (3M),2024-10-01,2024-12-31,3692,D02,Statements of Cash Flows
+"Proceeds from issuance of debt, net",Q2'25 (3M),2025-04-01,2025-06-30,3611,D01,Statements of Cash Flows
+"Proceeds from issuance of debt, net",6M'25,2025-01-01,2025-06-30,4396,D01,Statements of Cash Flows
+"Proceeds from issuance of debt, net",Q4'25 (3M),2025-10-01,2025-12-31,4312,D02,Statements of Cash Flows
+"Proceeds from issuance of debt, net",FY25,2025-01-01,2025-12-31,11829,D02,Statements of Cash Flows
+"Proceeds from issuance of debt, net",Q2'26 (3M),2026-04-01,2026-06-30,13457,D01,Statements of Cash Flows
+"Proceeds from issuance of debt, net",6M'26,2026-01-01,2026-06-30,16747,D01,Statements of Cash Flows
+Repayments of debt,Q4'24 (3M),2024-10-01,2024-12-31,225,D02,Statements of Cash Flows
+Repayments of debt,Q2'25 (3M),2025-04-01,2025-06-30,1304,D01,Statements of Cash Flows
+Repayments of debt,6M'25,2025-01-01,2025-06-30,1575,D01,Statements of Cash Flows
+Repayments of debt,Q4'25 (3M),2025-10-01,2025-12-31,420,D02,Statements of Cash Flows
+Repayments of debt,FY25,2025-01-01,2025-12-31,3399,D02,Statements of Cash Flows
+Repayments of debt,Q2'26 (3M),2026-04-01,2026-06-30,3884,D01,Statements of Cash Flows
+Repayments of debt,6M'26,2026-01-01,2026-06-30,5219,D01,Statements of Cash Flows

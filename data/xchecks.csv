@@ -1,0 +1,11 @@
+check_id,label,model_ref,reference_value,tolerance,reference_source
+X01,Derived Q1'26 revenue vs press coverage ($M),{Revenue:Q1'26},2080,5,D21 ($2.08B)
+X02,Derived Q1'26 net loss vs press coverage ($M),{Net loss:Q1'26},-740,1,D21
+X03,Derived Q1'26 interest expense ($M),"{Interest expense, net:Q1'26}",536,1,D21
+X04,Derived Q1'25 adj. EBITDA ($M),{Adjusted EBITDA:Q1'25},606,2,D18
+X05,Derived Q3'25 revenue ($M),{Revenue:Q3'25},1360,10,D22 ($1.36B)
+X06,Derived Q1'25 revenue ($M),{Revenue:Q1'25},982,1,D18 ($0.982B)
+X07,Q1'26 revenue growth QoQ,{growth_qoq:Q1'26},0.32,0.01,D11 (32%)
+X08,Q2'26 revenue growth YoY,{growth_yoy:Q2'26},1.12,0.01,D01/D07 (112%)
+X09,Q4'25 revenue growth YoY,{growth_yoy:Q4'25},1.10,0.01,D14 (110%)
+X10,Jun-26 total debt ($M),{total_debt:2026-06-30},35000,500,D09 ('$35B')

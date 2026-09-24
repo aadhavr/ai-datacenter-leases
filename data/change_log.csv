@@ -1,0 +1,12 @@
+date,tab,item,old_value,new_value,reason,doc_id
+2026-09-23,All,Initial build,,,"First version: historical base, KPIs, claim log, reconciliation, checks.",D01-D22
+2026-09-23,KPIs,Q1'25 active power,,420,Chosen pending primary check; alternative 350 in D17 (R2).,D18
+2026-09-23,Assumptions,kW per GPU,,2.0,Placeholder for mixed fleet; sensitivity 1.2-2.6 in Analysis.,Analyst
+2026-09-23,Assumptions,Q3'26 end active power,,linear path,No company figure for Q3'26 yet.,Analyst
+2026-09-23,Pipeline,Replicable local pipeline,,,"Data moved to CSV; fetch, verify, build and test scripts added.",
+2026-09-23,Data,Power stack inputs,,,"Added power definitions, three CoreWeave leases (CORZ, APLD, GLXY), ramp data, stack inputs and Dec-24 calibration.",D23-D32
+2026-09-23,KPIs,Q4'24 active/contracted power and RPO,,"360 MW / 1.3 GW / $15.1B",From S-1/A; used for calibration.,D23
+2026-09-24,KPIs,"Q1'25 active/contracted power, backlog",D18 (secondary),D33 (primary),Primary press release found; resolves R2 (420 vs 350 MW).,D33
+2026-09-24,KPIs,Q2'25 backlog source,D15 (transcript summary),D05 (primary),Script could not match the secondary page text.,D05
+2026-09-24,Verify,Text normalization,,,"Periods outside numbers ignored, so extractor separators do not block matches.",
+2026-09-24,Verify,Debt proceeds XBRL check,checked,skipped,Line combines items; logged as R10; not used in any result.,

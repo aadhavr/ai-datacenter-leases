@@ -1,0 +1,4 @@
+block,item,value_musd,doc_id,note
+Q2'26 (3M),Provision for income taxes,62,D01,Add back
+Q2'26 (3M),Acquisition related costs,1,D01,Add back
+Q2'26 (3M),"Other (income) expense, net",-125,D01,Subtract other income

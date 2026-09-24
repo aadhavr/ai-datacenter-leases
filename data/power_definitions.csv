@@ -1,0 +1,8 @@
+company,term,basis,definition_paraphrase,doc_id,evidence
+CoreWeave,Active power,Unspecified,"Not in the S-1 list of defined terms. 'Data centers' are defined as sites for which the company is receiving active power.",D23,for which we are receiving active power
+CoreWeave,Contracted power,Unspecified,Total power under contract; expected to roll out over the coming years.,D23,which we expect to roll out over the coming years
+Core Scientific,Gross utility power capacity,Gross,Total utility power capacity agreements at sites under its control; includes capacity commissioned for future use.,D25,Total electric utility power capacity agreements
+Core Scientific,Total leasable customer power capacity,Critical IT,Estimate of total non-redundant customer IT load its sites could support.,D25,total non-redundant customer IT load
+Core Scientific,Billable MW,Critical IT (billing),Customer IT capacity that is delivered and billing.,D26,derived from 243 megawatts billing
+Galaxy,Gross power vs critical IT load,Both,Reports gross power and critical IT load separately for each phase.,D29,133 MW of critical IT load
+Applied Digital,Critical IT capacity,Critical IT,Leases are stated in MW of critical IT load.,D27,total critical IT capacity across these three long-term lease agreements will encompass 400MW

@@ -1,0 +1,11 @@
+rec_id,topic,figure_a,source_a,figure_b,source_b,fmt,likely_cause,status,next_step
+R1,Q4'25 $898M: which metric?,898,D02 (adj. EBITDA; adj. op. income is 88),898,D14 (calls it adj. operating income),num,Label error in secondary source.,Resolved,Use D02.
+R2,Q1'25 active power (MW),420,D33 (primary: Q1 2025 press release),350,D17,num,D17 (secondary) is wrong or uses another date; the primary filing states ~420 MW.,Resolved,Use 420 (D33).
+R3,Q2'26 capex ($M),9400,D09 (company 'capex'),{Purchase of PP&E (cash capex):Q2'26},D01 (cash purchase of PP&E),num,Company capex likely includes accrued and vendor-financed equipment; cash line does not.,Open,Confirm capex definition in Q2'26 10-Q / call.
+R4,Q2'25 capex ($M),2900,D17,{Purchase of PP&E (cash capex):Q2'25},D01 comparative (cash),num,Same as R3.,Open,Same as R3.
+R5,Backlog at Q2'26 ($B),104.2,D01/D06 (as of 2026-06-30),129,D10,num1,D10 adds >$25B of early-Q3 commitments to the quarter-end figure.,Resolved,Use 104.2 for Q2'26; log Q3 commitments separately.
+R6,Contracted power 'Q2'26' (GW),3.7,D01 (as of 2026-06-30),4.2,D08 (as of 2026-08-11),num1,Different as-of dates.,Resolved,Use 3.7 for Q2'26.
+R7,Q1'26 new bookings ($B),40,D11 ('more than $40B' new commitments),{bookings:Q1'26},Backlog roll-forward (Analysis),num1,"Commitments may include amounts outside the backlog definition, or backlog had other adjustments.",Open,Read Q1'26 10-Q RPO note and call transcript.
+R8,Share of contracted power active at Q2'26,=1.5/4.2,D09 (uses 4.2 GW post-quarter),{active_share:Q2'26},Quarter-end figures,pct,"Mixed as-of dates: active at 2026-06-30, contracted at 2026-08-11.",Resolved,Use quarter-end ratio.
+R9,YE25 active power (MW),900,D15 (target Aug 2025),850,D02 (actual),num,Target vs outcome; powered-shell delay (D16).,Resolved,Kept in Claim_Log as a missed target.
+R10,"Proceeds from issuance of debt, Q4'25 ($M); Q4'24 differs by 3.1",4312,D02 press release (cash-flow line),4266.3,"XBRL ProceedsFromIssuanceOfLongTermDebt, FY minus 9M",num,Press-release line probably includes another borrowing type that XBRL tags separately.,Open (not used in any result),Find the second XBRL item in the 10-K cash-flow statement if this line is ever used.

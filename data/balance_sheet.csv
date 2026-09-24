@@ -1,0 +1,52 @@
+item,as_of,value_musd,doc_id,locator
+Cash and cash equivalents,2024-12-31,1361,D02,Consolidated Balance Sheets
+Cash and cash equivalents,2025-12-31,3127,D02,Consolidated Balance Sheets
+Cash and cash equivalents,2026-06-30,5524,D01,Consolidated Balance Sheets
+"Restricted cash, current",2024-12-31,37,D02,Consolidated Balance Sheets
+"Restricted cash, current",2025-12-31,819,D02,Consolidated Balance Sheets
+"Restricted cash, current",2026-06-30,873,D01,Consolidated Balance Sheets
+"Restricted cash, non-current",2024-12-31,637,D02,Consolidated Balance Sheets
+"Restricted cash, non-current",2025-12-31,184,D02,Consolidated Balance Sheets
+"Restricted cash, non-current",2026-06-30,507,D01,Consolidated Balance Sheets
+"Property and equipment, net",2024-12-31,11915,D02,Consolidated Balance Sheets
+"Property and equipment, net",2025-12-31,30557,D02,Consolidated Balance Sheets
+"Property and equipment, net",2026-06-30,46736,D01,Consolidated Balance Sheets
+Operating lease right-of-use assets,2024-12-31,2590,D02,Consolidated Balance Sheets
+Operating lease right-of-use assets,2025-12-31,8231,D02,Consolidated Balance Sheets
+Operating lease right-of-use assets,2026-06-30,16595,D01,Consolidated Balance Sheets
+Total assets,2024-12-31,17833,D02,Consolidated Balance Sheets
+Total assets,2025-12-31,49302,D02,Consolidated Balance Sheets
+Total assets,2026-06-30,77070,D01,Consolidated Balance Sheets
+"Debt, current (recourse + non-recourse)",2024-12-31,2468,D02,Consolidated Balance Sheets
+"Debt, current (recourse + non-recourse)",2025-12-31,6708,D02,Consolidated Balance Sheets
+"Debt, current (recourse + non-recourse)",2026-06-30,7513,D01,Consolidated Balance Sheets
+"Debt, non-current (recourse + non-recourse)",2024-12-31,5458,D02,Consolidated Balance Sheets
+"Debt, non-current (recourse + non-recourse)",2025-12-31,14665,D02,Consolidated Balance Sheets
+"Debt, non-current (recourse + non-recourse)",2026-06-30,27555,D01,Consolidated Balance Sheets
+"Deferred revenue, current",2024-12-31,769,D02,Consolidated Balance Sheets
+"Deferred revenue, current",2025-12-31,1709,D02,Consolidated Balance Sheets
+"Deferred revenue, current",2026-06-30,2686,D01,Consolidated Balance Sheets
+"Deferred revenue, non-current",2024-12-31,3295,D02,Consolidated Balance Sheets
+"Deferred revenue, non-current",2025-12-31,6476,D02,Consolidated Balance Sheets
+"Deferred revenue, non-current",2026-06-30,7006,D01,Consolidated Balance Sheets
+"Operating lease liabilities, current",2024-12-31,213,D02,Consolidated Balance Sheets
+"Operating lease liabilities, current",2025-12-31,427,D02,Consolidated Balance Sheets
+"Operating lease liabilities, current",2026-06-30,584,D01,Consolidated Balance Sheets
+"Operating lease liabilities, non-current",2024-12-31,2389,D02,Consolidated Balance Sheets
+"Operating lease liabilities, non-current",2025-12-31,7768,D02,Consolidated Balance Sheets
+"Operating lease liabilities, non-current",2026-06-30,15735,D01,Consolidated Balance Sheets
+"Finance lease liabilities, current",2024-12-31,58,D02,Consolidated Balance Sheets
+"Finance lease liabilities, current",2025-12-31,38,D02,Consolidated Balance Sheets
+"Finance lease liabilities, current",2026-06-30,7,D01,Consolidated Balance Sheets
+"Finance lease liabilities, non-current",2024-12-31,34,D02,Consolidated Balance Sheets
+"Finance lease liabilities, non-current",2025-12-31,216,D02,Consolidated Balance Sheets
+"Finance lease liabilities, non-current",2026-06-30,214,D01,Consolidated Balance Sheets
+Total liabilities,2024-12-31,16525,D02,Consolidated Balance Sheets
+Total liabilities,2025-12-31,45967,D02,Consolidated Balance Sheets
+Total liabilities,2026-06-30,72046,D01,Consolidated Balance Sheets
+Redeemable convertible preferred stock,2024-12-31,1722,D02,Consolidated Balance Sheets
+Redeemable convertible preferred stock,2025-12-31,0,D02,Consolidated Balance Sheets
+Redeemable convertible preferred stock,2026-06-30,0,D01,Consolidated Balance Sheets
+Total stockholders' equity (deficit),2024-12-31,-414,D02,Consolidated Balance Sheets
+Total stockholders' equity (deficit),2025-12-31,3335,D02,Consolidated Balance Sheets
+Total stockholders' equity (deficit),2026-06-30,5024,D01,Consolidated Balance Sheets

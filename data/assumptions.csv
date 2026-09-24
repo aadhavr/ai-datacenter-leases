@@ -1,0 +1,13 @@
+key,label,value,unit,basis,doc_id,confidence,is_key,provenance
+kw_per_gpu,"kW of active power per GPU (all-in: GPU share of server, network, cooling, facility overhead)",2.0,kW/GPU,Analyst assumption for a mixed H100/H200 and GB200/GB300 fleet. Unknown whether 'active power' is IT load or facility load. See sensitivity.,Analyst,Low,1,assumption
+hours_per_day,Hours per day,24,hours,Definition,,High,0,definition
+q2_24_revenue,Q2'24 revenue (for Q2'25 YoY only),395,$M,Secondary table; verify against Q2'25 press release,D17,Low,0,filed_unverified
+fy26_rev_low,"FY26 revenue guidance, low",12400,$M,Raised on 2026-08-11,D07,Medium,0,filed_unverified
+fy26_rev_high,"FY26 revenue guidance, high",13200,$M,,D07,Medium,0,filed_unverified
+fy26_adjoi_low,"FY26 adj. operating income guidance, low",960,$M,,D07,Medium,0,filed_unverified
+fy26_adjoi_high,"FY26 adj. operating income guidance, high",1150,$M,,D07,Medium,0,filed_unverified
+fy26_capex_low,"FY26 capex guidance, low",35000,$M,Company-defined capex (see R3),D07,Medium,0,filed_unverified
+fy26_capex_high,"FY26 capex guidance, high",39000,$M,,D07,Medium,0,filed_unverified
+q3_26_rev_low,"Q3'26 revenue guidance, low",3450,$M,Secondary; check call transcript,D09,Low,0,filed_unverified
+q3_26_rev_high,"Q3'26 revenue guidance, high",3600,$M,,D09,Low,0,filed_unverified
+ye26_active_mw,YE26 active power target,1850,MW,'more than 1.85 GW',D07,Medium,0,filed_unverified

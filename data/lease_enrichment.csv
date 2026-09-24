@@ -1,0 +1,128 @@
+lease_id,field,value,evidence_col,evidence_needle
+P008,credit_type,third_party_backstop,,
+P008,credit_support,Google,credit_support_evidence,Google will backstop $1.4 billion
+P012,credit_type,third_party_backstop,,
+P012,credit_support,Google,credit_support_evidence,Google will backstop an additional $333 million
+P013,credit_type,parent_guarantee,,
+P013,credit_support,"Amazon.com, Inc.",credit_support_evidence,Amazon parent providing guarantee in an amount equal to rent and opex
+P014,credit_type,parent_guarantee,,
+P014,credit_support,"Amazon.com, Inc.",credit_support_evidence,fully guarantees all base rent and operating expenses
+P018,credit_type,parent_guarantee,,
+P018,credit_support,G42,credit_support_evidence,backed by a parent guarantee from G42
+P043b,credit_type,none_stated,,
+P043b,credit_support,,,
+P043b,credit_support_evidence,,,
+P044,credit_type,none_stated,,
+P044,credit_support,,,
+P044,credit_support_evidence,,,
+P074,credit_type,third_party_backstop,,
+P074,credit_support,Google,credit_support_evidence,Google will backstop $1.8 billion
+P076,credit_type,third_party_backstop,,
+P076,credit_support,Google,credit_support_evidence,pursuant to which Google has agreed to backstop
+P081,credit_type,third_party_backstop,,
+P081,credit_support,Google,credit_support_evidence,Google backstops $1.3 billion
+P084,credit_type,third_party_backstop,,
+P084,credit_support,Google,credit_support_evidence,"is providing a financial backstop, which covers the lease payments"
+P087,credit_type,none_stated,,
+P087,credit_support,,,
+P087,credit_support_evidence,,,
+P092,credit_type,none_stated,,
+P092,credit_support,,,
+P092,credit_support_evidence,,,
+P094,credit_type,ig_tenant,,
+P094,credit_support,tenant is high investment-grade,credit_support_evidence,for 352 MW of IT capacity with a high-investment-grade tenant
+P099,credit_type,anticipated,,
+P099,credit_support,investment-grade credit support expected,credit_support_evidence,expected to be supported by an investment-grade credit
+P100,credit_type,ig_tenant,,
+P100,credit_support,tenant is high investment-grade,credit_support_evidence,Tenant Profile: High-investment-grade company
+P104,credit_type,anticipated,,
+P104,credit_support,IG backstop in finalization,credit_support_evidence,IG-Backstop in Finalization
+P122,credit_type,ig_tenant,,
+P122,credit_support,tenant is investment-grade,credit_support_evidence,"Hyperscaler at its state-of-the-art, purpose-built Polaris Forge 2"
+P126,credit_type,ig_tenant,,
+P126,credit_support,tenant is high investment-grade,credit_support_evidence,High Investment-Grade Hyperscaler Tenant at Delta Forge 1
+P128b,credit_type,ig_tenant,,
+P128b,credit_support,tenant is high investment-grade,credit_support_evidence,all with the same high investment-grade hyperscaler
+P129,credit_type,none_stated,,
+P129,credit_support,,,
+P129,credit_support_evidence,,,
+P141,credit_type,none_stated,,
+P141,credit_support,,,
+P141,credit_support_evidence,,,
+P145,credit_type,ig_tenant,,
+P145,credit_support,tenant is high investment-grade,credit_support_evidence,to a high-investment-grade tenant
+P178,credit_type,none_stated,,
+P178,credit_support,,,
+P178,credit_support_evidence,,,
+P188,credit_type,none_stated,,
+P188,credit_support,,,
+P188,credit_support_evidence,,,
+P196,credit_type,none_stated,,
+P196,credit_support,,,
+P196,credit_support_evidence,,,
+P200,credit_type,anticipated,,
+P200,credit_support,letters of credit anticipated,credit_support_evidence,obligations are anticipated to be backed by Letters of Credit
+P215,credit_type,none_stated,,
+P215,credit_support,,,
+P215,credit_support_evidence,,,
+P231,credit_type,ig_tenant,,
+P231,credit_support,tenant is high investment-grade,credit_support_evidence,The lease is with a U.S. based high investment-grade hyperscaler
+P233,credit_type,anticipated,,
+P233,credit_support,backstop not yet finalized,credit_support_evidence,the finalization of a backstop agreement for the Lease
+P237,credit_type,none_stated,,
+P237,credit_support,,,
+P237,credit_support_evidence,,,
+P246,credit_type,none_stated,,
+P246,credit_support,,,
+P246,credit_support_evidence,,,
+P252,credit_type,none_stated,,
+P252,credit_support,,,
+P252,credit_support_evidence,,,
+P256,credit_type,none_stated,,
+P256,credit_support,,,
+P256,credit_support_evidence,,,
+P271,credit_type,none_stated,,
+P271,credit_support,,,
+P271,credit_support_evidence,,,
+P290,credit_type,none_stated,,
+P290,credit_support,,,
+P290,credit_support_evidence,,,
+P290b,credit_type,third_party_backstop,,
+P290b,credit_support,AMD,credit_support_evidence,entered into a Credit Support Agreement with respect to each Neocloud Lease
+P294,credit_type,none_stated,,
+P294,credit_support,,,
+P294,credit_support_evidence,,,
+P295,credit_type,none_stated,,
+P295,credit_support,,,
+P295,credit_support_evidence,,,
+P315,credit_type,none_stated,,
+P315,credit_support,,,
+P315,credit_support_evidence,,,
+P008,first_rfs,2026-09,first_rfs_evidence,by September of 2026
+P012,first_rfs,2027-01,first_rfs_evidence,by January 2027
+P013,first_rfs,2026-10,first_rfs_evidence,October 2026 Targeted Initial Rent Commencement Date
+P014,first_rfs,2027-04,first_rfs_evidence,"initial rent targeted t o start on April 1 st , 2027"
+P044,first_rfs,2026-11,first_rfs_evidence,operational during the fourth quarter of 2026
+P074,first_rfs,2026-04,first_rfs_evidence,expected online in the first half of 2026
+P076,first_rfs,2026-12,first_rfs_evidence,to Fluidstack by year end 2026
+P081,first_rfs,2026-10,first_rfs_evidence,delivered in the second half of 2026
+P087,first_rfs,2026-01,first_rfs_evidence,the first in January 2026
+P092,first_rfs,2027-05,first_rfs_evidence,May 2026 May 2027 May 2027
+P099,first_rfs,2027-10,first_rfs_evidence,into service during the second half of 2027
+P104,first_rfs,2027-12,first_rfs_evidence,Phase 1 96 MW Delivered December 2027
+P122,first_rfs,2026-07,first_rfs_evidence,expected to begin to come online in 2026
+P126,first_rfs,2027-07,first_rfs_evidence,anticipated to commence in mid-2027
+P128b,first_rfs,2027-07,first_rfs_evidence,initial operations expected to commence during calendar year 2027
+P145,first_rfs,2027-11,first_rfs_evidence,deliveries expected to begin in Q4 2027
+P178,first_rfs,2026-04,first_rfs_evidence,"Billing for the first 20 MW targeted to commence April 30, 2026"
+P188,first_rfs,2026-12,first_rfs_evidence,targets Phase 1 Ready-for-Service in December 2026
+P196,first_rfs,2027-02,first_rfs_evidence,"associated revenue expected to commence, in the first quarter of 2027"
+P200,first_rfs,2026-12,first_rfs_evidence,"Phase 1 target commencement December 31, 2026"
+P215,first_rfs,2027-07,first_rfs_evidence,ready for service in mid 2027
+P231,first_rfs,2028-02,first_rfs_evidence,anticipated to commence in Q1 2028
+P233,first_rfs,2027-02,first_rfs_evidence,with delivery expected in the
+P271,first_rfs,2025-11,first_rfs_evidence,ready for service in the fourth quarter of calendar 2025
+P294,first_rfs,2027-07,first_rfs_evidence,expected to commence in 2027
+P315,first_rfs,2026-08,first_rfs_evidence,Cash payment commenced in August 2026
+P100,notes,+Confirmed second lease: filing says it doubles the tenant's capacity to 704 MW under two 15-year leases; campus value $19.6B = 2 x $9.8B.,,
+P094,notes,+Confirmed first of two leases at Beacon Point (see P100).,,

@@ -1,0 +1,35 @@
+# Map each reported line item to candidate XBRL concepts (us-gaap unless prefixed).
+# verify.py tries candidates in order; if none match, it searches concept labels
+# for label_search. sign: +1 if the XBRL value has the same sign convention as
+# reported.csv, -1 if opposite. "abs" compares absolute values.
+# Items with no XBRL equivalent (non-GAAP) are listed under skip.
+items:
+  Revenue: {candidates: [RevenueFromContractWithCustomerExcludingAssessedTax, Revenues], compare: abs}
+  Cost of revenue: {candidates: [CostOfRevenue, CostOfGoodsAndServicesSold], compare: abs}
+  Technology and infrastructure: {candidates: [], label_search: "technology and infrastructure", compare: abs}
+  Sales and marketing: {candidates: [SellingAndMarketingExpense, MarketingAndAdvertisingExpense], compare: abs}
+  General and administrative: {candidates: [GeneralAndAdministrativeExpense], compare: abs}
+  Total operating expenses: {candidates: [OperatingExpenses, CostsAndExpenses], compare: abs}
+  Operating income (loss): {candidates: [OperatingIncomeLoss], compare: signed}
+  Interest expense, net: {candidates: [InterestIncomeExpenseNonoperatingNet, InterestExpenseNonoperating, InterestExpense], compare: abs}
+  Net loss: {candidates: [NetIncomeLoss, ProfitLoss], compare: signed}
+  Depreciation and amortization: {candidates: [DepreciationDepletionAndAmortization, DepreciationAmortizationAndAccretionNet, DepreciationAndAmortization], compare: abs}
+  Stock-based compensation: {candidates: [ShareBasedCompensation, AllocatedShareBasedCompensationExpense], compare: abs}
+  Net cash from operating activities: {candidates: [NetCashProvidedByUsedInOperatingActivities], compare: signed}
+  Purchase of PP&E (cash capex): {candidates: [PaymentsToAcquirePropertyPlantAndEquipment, PaymentsToAcquireProductiveAssets], compare: abs}
+  Proceeds from issuance of debt, net: {candidates: [ProceedsFromDebtNetOfIssuanceCosts, ProceedsFromIssuanceOfDebt, ProceedsFromIssuanceOfLongTermDebt], compare: abs}
+  Repayments of debt: {candidates: [RepaymentsOfDebt, RepaymentsOfLongTermDebt], compare: abs}
+balance_sheet:
+  Cash and cash equivalents: {candidates: [CashAndCashEquivalentsAtCarryingValue], compare: abs}
+  Property and equipment, net: {candidates: [PropertyPlantAndEquipmentNet], compare: abs}
+  Operating lease right-of-use assets: {candidates: [OperatingLeaseRightOfUseAsset], compare: abs}
+  Total assets: {candidates: [Assets], compare: abs}
+  Total liabilities: {candidates: [Liabilities], compare: abs}
+  Total stockholders' equity (deficit): {candidates: [StockholdersEquity], compare: signed}
+  Deferred revenue, current: {candidates: [ContractWithCustomerLiabilityCurrent, DeferredRevenueCurrent], compare: abs}
+  Deferred revenue, non-current: {candidates: [ContractWithCustomerLiabilityNoncurrent, DeferredRevenueNoncurrent], compare: abs}
+  Operating lease liabilities, current: {candidates: [OperatingLeaseLiabilityCurrent], compare: abs}
+  Operating lease liabilities, non-current: {candidates: [OperatingLeaseLiabilityNoncurrent], compare: abs}
+# Proceeds from issuance of debt: the press-release line is larger than any single XBRL item
+# (see reconciliation R10). Not used in any result.
+skip: [Adjusted EBITDA, Adjusted operating income, "Proceeds from issuance of debt, net"]

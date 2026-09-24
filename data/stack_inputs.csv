@@ -1,0 +1,6 @@
+key,low,base,high,unit,basis,doc_id,confidence,provenance
+useful_life_coreweave,,6,,years,CoreWeave depreciation life for technology equipment. Verify in FY2025 10-K accounting policies.,D19,Medium,filed_unverified
+useful_life_nebius,,4,,years,Nebius depreciation life for GPUs. Verify in Nebius annual report.,D19,Medium,filed_unverified
+landlord_cash_margin_corz,0.80,,0.85,share,Core Scientific target cash gross margin on the CoreWeave contract.,D26,Medium,filed
+electricity_price_us_industrial,,86,,$/MWh,"US industrial average, Mar 2026 (8.58 c/kWh). Context only; not used in the stack until energy per MW is sourced.",D30,Medium,market_data
+kw_per_gpu_h100_it,,,,kW/GPU,"TODO: add NVIDIA DGX/HGX H100 datasheet (max system power / 8 GPUs). Needed for the 'active power = IT load' test.",,,missing

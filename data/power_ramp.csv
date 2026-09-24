@@ -1,0 +1,9 @@
+series,as_of,mw,basis,doc_id,evidence
+CORZ billing,2025-05-31,8,Critical IT (billing),D31,8 MW of billable capacity at Denton
+CORZ billing,2026-03-31,243,Critical IT (billing),D26,derived from 243 megawatts billing
+CORZ billing,2026-07-15,430,Critical IT (billing),D24,Over 430 MW
+CORZ contracted,2026-07-15,590,Critical IT,D24,~590MW infrastructure
+GLXY delivered,2026-06-30,133,Critical IT,D29,133 MW of critical IT load
+GLXY contracted,2026-07-06,526,Critical IT,D29,CoreWeave has committed to 526 MW of critical IT load
+APLD RFS,2025-10-27,50,Critical IT,D28,Ready for Service for its first phase (50 MW)
+APLD contracted,2025-08-29,400,Critical IT,D27,will encompass 400MW

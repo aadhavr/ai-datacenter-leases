@@ -1,0 +1,6 @@
+openpyxl>=3.1
+PyYAML>=6.0
+requests>=2.31
+# optional
+pypdf>=4.0      # evidence checks on PDF sources
+pytest>=8.0     # tests (plain `python tests/test_pipeline.py` also works)

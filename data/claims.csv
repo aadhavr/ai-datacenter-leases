@@ -1,0 +1,20 @@
+claim_id,company,claim_date,metric,value,unit,qualifier,class,as_of_or_target,outcome,doc_id,confidence
+C01,CoreWeave,2025-08-12,"Active power, year-end target",900,MW,>,Announced,2025-12-31,Missed: >850 MW at YE25 (D02). Cause cited: third-party powered-shell delay (D16).,D15,Medium
+C02,CoreWeave,2025-08-12,Active power,470,MW,~,Active,2025-06-30,Fact,D05,High
+C03,CoreWeave,2025-08-12,Contracted power,2.2,GW,~,Contracted,2025-06-30,Fact,D05,High
+C04,CoreWeave,2025-08-12,"Kenilworth, NJ campus capacity",250,MW,up to,Announced,Initial delivery 2026,Open — check status,D17,Low
+C05,CoreWeave,2025-11-10,Active power,590,MW,~,Active,2025-09-30,Fact,D04,High
+C06,CoreWeave,2025-11-10,Contracted power,2.9,GW,~,Contracted,2025-09-30,Fact,D04,High
+C07,CoreWeave,2025-11-10,Contracted power available to sell,1,GW,>,Available,Next 12–24 months,Open,D16,Medium
+C08,CoreWeave,2025-11-10,"Lancaster, PA data center",300,MW,up to,Announced,n/a,Open — check status,D22,Low
+C09,CoreWeave,2026-02-26,Active power,850,MW,>,Active,2025-12-31,Fact,D02,High
+C10,CoreWeave,2026-02-26,Contracted power,3.1,GW,~,Contracted,2025-12-31,Fact,D02,High
+C11,CoreWeave,2026-05-07,Active power,1000,MW,>,Active,2026-03-31,Fact,D03,High
+C12,CoreWeave,2026-05-07,Contracted power,3.5,GW,>,Contracted,2026-03-31,Fact,D03,High
+C13,CoreWeave,2026-05-07,"Active power, year-end target",1700,MW,>,Announced,2026-12-31,Superseded by C16 (raised),D11,Medium
+C14,CoreWeave,2026-05-07,Share of 3.5 GW contracted online,,,'substantial majority',Announced,2027-12-31,Open,D11,Medium
+C15,CoreWeave,2026-05-07,"Active power, 2030 aspiration",8,GW,>,Announced,2030,Open,D03,High
+C16,CoreWeave,2026-08-11,"Active power, year-end target",1850,MW,>,Announced,2026-12-31,Open,D07,Medium
+C17,CoreWeave,2026-08-11,Active power,1500,MW,~,Active,2026-06-30,Fact,D01,High
+C18,CoreWeave,2026-08-11,Contracted power,3.7,GW,~,Contracted,2026-06-30,Fact,D01,High
+C19,CoreWeave,2026-08-11,Contracted power (post-quarter),4.2,GW,~,Contracted,2026-08-11,Fact,D08,Medium

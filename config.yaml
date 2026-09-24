@@ -1,0 +1,82 @@
+# Project configuration. Edit sec_user_agent before you run fetch.
+company:
+  name: CoreWeave
+  ticker: CRWV
+  cik: "0001769628"
+
+# The SEC requires a User-Agent with a name and an email address.
+# https://www.sec.gov/os/accessing-edgar-data
+sec_user_agent: "Your Name your.email@example.com"   # or set SEC_USER_AGENT
+
+paths:
+  data: data
+  raw: raw
+  output: output/coreweave_model.xlsx
+  reports: reports
+
+# Reported blocks, in the column order of the Reported_IS_CF tab.
+blocks:
+  - {label: "Q4'24 (3M)", start: 2024-10-01, end: 2024-12-31}
+  - {label: "Q2'25 (3M)", start: 2025-04-01, end: 2025-06-30}
+  - {label: "6M'25",      start: 2025-01-01, end: 2025-06-30}
+  - {label: "Q4'25 (3M)", start: 2025-10-01, end: 2025-12-31}
+  - {label: "FY25",       start: 2025-01-01, end: 2025-12-31}
+  - {label: "Q2'26 (3M)", start: 2026-04-01, end: 2026-06-30}
+  - {label: "6M'26",      start: 2026-01-01, end: 2026-06-30}
+
+# Standalone quarters: value = sum(plus blocks) - sum(minus blocks).
+quarters:
+  - {label: "Q1'25", start: 2025-01-01, end: 2025-03-31, plus: ["6M'25"], minus: ["Q2'25 (3M)"]}
+  - {label: "Q2'25", start: 2025-04-01, end: 2025-06-30, plus: ["Q2'25 (3M)"], minus: []}
+  - {label: "Q3'25", start: 2025-07-01, end: 2025-09-30, plus: ["FY25"], minus: ["6M'25", "Q4'25 (3M)"]}
+  - {label: "Q4'25", start: 2025-10-01, end: 2025-12-31, plus: ["Q4'25 (3M)"], minus: []}
+  - {label: "Q1'26", start: 2026-01-01, end: 2026-03-31, plus: ["6M'26"], minus: ["Q2'26 (3M)"]}
+  - {label: "Q2'26", start: 2026-04-01, end: 2026-06-30, plus: ["Q2'26 (3M)"], minus: []}
+
+# Year-over-year pairs: quarter -> prior-year source.
+# Either another quarter label, a reported block, or an assumption key.
+yoy:
+  "Q2'25": {assumption: q2_24_revenue}
+  "Q4'25": {block: "Q4'24 (3M)"}
+  "Q1'26": {quarter: "Q1'25"}
+  "Q2'26": {quarter: "Q2'25"}
+
+# Period blocks for implied depreciation and interest rates.
+rate_periods:
+  - {label: "FY25", block: "FY25", bs_start: 2024-12-31, bs_end: 2025-12-31, start: 2025-01-01, end: 2025-12-31}
+  - {label: "H1'26 (annualized)", block: "6M'26", bs_start: 2025-12-31, bs_end: 2026-06-30, start: 2026-01-01, end: 2026-06-30}
+
+# Reported block that holds first-half revenue for the FY26 guidance check.
+h1_block: "6M'26"
+
+sensitivity_kw_per_gpu: [1.2, 1.4, 1.6, 1.8, 2.0, 2.2, 2.4, 2.6]
+
+# Tolerance (in $M) for the XBRL check in verify.py.
+xbrl_tolerance_musd: 1.0
+
+# Data files whose rows carry an exact evidence phrase; verify.py checks each phrase in its source.
+evidence_files: [kpis.csv, power_definitions.csv, power_deals.csv, power_ramp.csv, calibration.csv]
+
+# ---------------------------------------------------------------- Lease panel
+leases:
+  start: 2024-01-01
+  end: 2026-09-23
+  # 8-K and 6-K (foreign issuers) carry most lease announcements as EX-99 press releases.
+  forms: ["8-K", "6-K"]
+  # SEC full-text search queries. Quotes = exact phrase. Add queries as you find new wording.
+  queries:
+    - '"critical IT" lease'
+    - '"critical IT load"'
+    - '"high-density colocation"'
+    - '"HPC" lease "MW"'
+    - '"AI" "data center" lease "MW" "contract value"'
+    - '"colocation" "MW" "year" CoreWeave'
+    - 'Fluidstack lease "MW"'
+  # Only keep documents of these types (from the search index 'file_type').
+  file_types: ["EX-99.1", "EX-99.2", "EX-99", "8-K", "6-K"]
+  # Names searched in each document to tag the tenant. Add names as they appear.
+  tenants: [CoreWeave, Fluidstack, Google, Microsoft, Anthropic, OpenAI, Nebius, Lambda, Crusoe,
+            Oracle, Amazon, AWS, Meta, xAI, Together AI, IBM, Nvidia, NVIDIA, Hyperscaler]
+  # A document must have at least this relevance score to be downloaded and extracted.
+  min_score: 3
+  max_pages_per_query: 10

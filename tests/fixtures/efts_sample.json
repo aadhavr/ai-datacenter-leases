@@ -1,0 +1,4 @@
+{"hits": {"total": {"value": 2}, "hits": [
+ {"_id": "0001493152-25-012458:ex99-1.htm", "_source": {"ciks": ["0001144879"], "display_names": ["Applied Digital Corp.  (APLD)  (CIK 0001144879)"], "file_date": "2025-08-29", "form": "8-K", "file_type": "EX-99.1", "file_description": "PRESS RELEASE"}},
+ {"_id": "0009999999-26-000001:ex99-1.htm", "_source": {"ciks": ["0009999999"], "display_names": ["Example Landlord Inc.  (EXLD)  (CIK 0009999999)"], "file_date": "2026-02-10", "form": "8-K", "file_type": "EX-99.1", "file_description": "PRESS RELEASE"}}
+]}}

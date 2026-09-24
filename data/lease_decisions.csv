@@ -1,0 +1,88 @@
+lease_id,status,reason_code,deal_key,n_leases,set_fields,note
+P008,REVIEWED,,CIFR-FLUIDSTACK-BARBER-P1,1,{},
+P012,REVIEWED,,CIFR-FLUIDSTACK-BARBER-P2,1,{},Expansion of Barber Lake lease (Phase II).
+P013,REVIEWED,,CIFR-AWS-BLACKPEARL,1,"{""announce_date"": ""2025-11-03""}",Most complete document of the event; announce_date = earliest filing in the group (P283).
+P014,REVIEWED,,CIFR-AWS-2,1,{},
+P044,REVIEWED,,DUOS-COLUMBUS-10MW,1,{},Tenant conflict: this call transcript names Axe Compute; the press release (P043) names an investment-grade hyperscaler for the 10 MW. Check the 8-K.
+P074,REVIEWED,,WULF-FLUIDSTACK-CB3-4,2,{},"Package of two leases (CB-3, CB-4), same tenant, date and term."
+P081,REVIEWED,,WULF-FLUIDSTACK-JV,1,{},
+P084,REVIEWED,,HUT-FLUIDSTACK-1,1,{},
+P087,REVIEWED,,RIOT-AMD-1,1,{},
+P092,REVIEWED,,RIOT-AMD-2,1,{},Expansion of RIOT-AMD-1.
+P094,REVIEWED,,HUT-BEACON-P1,1,{},Same MW and value as P100 (Phase 2). Check that these are two leases.
+P100,REVIEWED,,HUT-BEACON-P2,1,{},Same MW and value as P094 (Phase 1). Check that these are two leases.
+P099,REVIEWED,,WULF-ANTHROPIC,1,{},
+P104,REVIEWED,,RIOT-FRONTIERLAB,1,{},
+P122,REVIEWED,,APLD-PF2,1,{},"Tenant later named as Oracle in P223, P225, P226."
+P126,REVIEWED,,APLD-DF1,1,{},
+P231,REVIEWED,,APLD-DF2,1,{},
+P129,REVIEWED,,MIGI-20MW,1,"{""mw_unstated"": ""@gross_mw"", ""mw_unstated_evidence"": ""@gross_mw_evidence"", ""gross_mw"": """", ""gross_mw_evidence"": """"}",MW basis not stated: moved to mw_unstated. $285M is cumulative revenue potential.
+P145,REVIEWED,,CLSK-META,1,{},"Tenant named in P146 (Anviran, LLC, a Meta subsidiary)."
+P178,REVIEWED,,WYFI-NSCALE,1,{},
+P188,REVIEWED,,DGXX-CEREBRAS,1,{},
+P196,REVIEWED,,CLNN-CEREBRAS,1,{},
+P200,REVIEWED,,BTDR-VOLTA,1,"{""announce_date"": ""2026-08-05""}",announce_date = earliest filing in the group (P198).
+P233,REVIEWED,,HCWC-HOST,1,{},
+P246,REVIEWED,,CORZ-CRWV-OPT3,1,{},
+P252,REVIEWED,,CORZ-CRWV-DENTON-EXP,1,{},
+P271,REVIEWED,,APLD-CRWV-B2-B3,2,{},"Package of two leases: Building 2 (100 MW, ~$3B) and Building 3 (150 MW, ~$4B), per P272. Same tenant, date and term."
+P018,NO_TERMS,,WULF-CORE42,1,{},
+P076,NO_TERMS,,WULF-FLUIDSTACK-CB5,1,{},CB-5 value not stated alone. P059/P077 give $6.7B for CB-3/4/5; minus P074 ($3.7B) = $3.0B. This is arithmetic across documents: not used.
+P215,NO_TERMS,,APLD-CRWV-3,1,{},Value not stated alone ($11B total minus $7B in P271 = $4B across documents: not used).
+P256,NO_TERMS,,GLXY-CRWV-HELIOS-P1,1,"{""signed_date"": ""2025-03"", ""signed_evidence"": ""In March 2025, Galaxy entered into a 15-year agreement with CoreWeave to host high-performance computing and artificial intelligence infrastructure and deliver 133 MW of Critical IT Load at its Helios campus in West Texas""}",Original March 2025 announcement is not in the panel; this is the earliest restatement.
+P294,NO_TERMS,,GLXY-CRWV-HELIOS-P2,1,{},
+P295,NO_TERMS,,GLXY-CRWV-HELIOS-P3,1,{},
+P290,NO_TERMS,,CORZ-AMD,1,{},"AMD leases (377 MW IT, three sites). Neocloud leases moved to P290b."
+P141,NO_TERMS,,BCE-CEREBRAS-CRWV,1,{},Two tenants named; no lease terms.
+P237,NO_TERMS,,DUOS-HYPERSCALER-4.8MW,1,"{""mw_unstated"": ""@gross_mw"", ""mw_unstated_evidence"": ""@gross_mw_evidence"", ""gross_mw"": """", ""gross_mw_evidence"": """"}",MW basis not stated: moved to mw_unstated.
+P315,NO_TERMS,,IONIC-WARD,1,{},
+P007,EXCLUDED,duplicate,CIFR-FLUIDSTACK-BARBER-P1,,{},duplicate of P008
+P009,EXCLUDED,duplicate,CIFR-FLUIDSTACK-BARBER-P1,,{},duplicate of P008
+P010,EXCLUDED,duplicate,CIFR-FLUIDSTACK-BARBER-P1,,{},duplicate of P008
+P011,EXCLUDED,duplicate,CIFR-FLUIDSTACK-BARBER-P2,,{},duplicate of P012
+P282,EXCLUDED,duplicate,CIFR-AWS-BLACKPEARL,,{},duplicate of P013
+P283,EXCLUDED,duplicate,CIFR-AWS-BLACKPEARL,,{},duplicate of P013
+P043,EXCLUDED,duplicate,DUOS-COLUMBUS-10MW,,{},duplicate of P044
+P073,EXCLUDED,duplicate,WULF-FLUIDSTACK-CB3-4,,{},duplicate of P074
+P075,EXCLUDED,duplicate,WULF-FLUIDSTACK-CB3-4,,{},duplicate of P074
+P080,EXCLUDED,duplicate,WULF-FLUIDSTACK-JV,,{},duplicate of P081
+P085,EXCLUDED,duplicate,HUT-FLUIDSTACK-1,,{},duplicate of P084
+P086,EXCLUDED,duplicate,RIOT-AMD-1,,{},duplicate of P087
+P091,EXCLUDED,duplicate,RIOT-AMD-2,,{},duplicate of P092
+P098,EXCLUDED,duplicate,WULF-ANTHROPIC,,{},duplicate of P099
+P103,EXCLUDED,duplicate,RIOT-FRONTIERLAB,,{},duplicate of P104
+P146,EXCLUDED,duplicate,CLSK-META,,{},duplicate of P145
+P197,EXCLUDED,duplicate,CLNN-CEREBRAS,,{},duplicate of P196
+P198,EXCLUDED,duplicate,BTDR-VOLTA,,{},duplicate of P200
+P272,EXCLUDED,duplicate,APLD-CRWV-B2-B3,,{},duplicate of P271
+P017,EXCLUDED,duplicate,WULF-CORE42,,{},duplicate of P018
+P077,EXCLUDED,duplicate,WULF-FLUIDSTACK-CB5,,{},duplicate of P076
+P128,EXCLUDED,duplicate,APLD-DF1,,{},duplicate of P126
+P305,EXCLUDED,duplicate,GLXY-CRWV-HELIOS-P1,,{},duplicate of P256
+P309,EXCLUDED,duplicate,GLXY-CRWV-HELIOS-P1,,{},duplicate of P256
+P306,EXCLUDED,duplicate,GLXY-CRWV-HELIOS-P2,,{},duplicate of P294
+P307,EXCLUDED,duplicate,GLXY-CRWV-HELIOS-P2,,{},duplicate of P294
+P298,EXCLUDED,duplicate,GLXY-CRWV-HELIOS-P3,,{},duplicate of P295
+P289,EXCLUDED,duplicate,CORZ-AMD,,{},duplicate of P290
+P004,EXCLUDED,duplicate,BCE-CEREBRAS-CRWV,,{},duplicate of P141
+P059,EXCLUDED,duplicate,WULF-FLUIDSTACK-CB3-4,,{},Aggregate of CB-3/4/5 (P074 and P076).
+P112,EXCLUDED,duplicate,CORZ-CRWV,,{},Package of all CoreWeave contracts; overlaps P246 and P252.
+P142,EXCLUDED,duplicate,CORZ-CRWV,,{},Package of CoreWeave license agreements; overlaps P246 and P252.
+P037,EXCLUDED,filer_is_tenant,,,{},
+P038,EXCLUDED,filer_is_tenant,,,{},
+P039,EXCLUDED,loi,,,{},Binding letter; definitive lease not signed.
+P144,EXCLUDED,not_a_lease,,,{},"Acquisition of interests in leased data centers, not a new lease."
+P275,EXCLUDED,filer_is_tenant,,,{},
+P003,EXCLUDED,not_a_lease,,,{},"No lease in this document (business update, results or forecasts)."
+P130,EXCLUDED,not_a_lease,,,{},"No lease in this document (business update, results or forecasts)."
+P219,EXCLUDED,not_a_lease,,,{},"No lease in this document (business update, results or forecasts)."
+P279,EXCLUDED,not_a_lease,,,{},"No lease in this document (business update, results or forecasts)."
+P280,EXCLUDED,not_a_lease,,,{},"No lease in this document (business update, results or forecasts)."
+P281,EXCLUDED,not_a_lease,,,{},"No lease in this document (business update, results or forecasts)."
+P135,EXCLUDED,not_a_lease,,,{},"No lease in this document (business update, results or forecasts)."
+P136,EXCLUDED,not_a_lease,,,{},"No lease in this document (business update, results or forecasts)."
+P203,EXCLUDED,not_a_lease,,,{},"No lease in this document (business update, results or forecasts)."
+P270,EXCLUDED,portfolio_total,,,{},
+P256,EXCLUDED,in_package,,,{},Priced in package row P323 (Helios Phases I-III).
+P294,EXCLUDED,in_package,,,{},Priced in package row P323 (Helios Phases I-III).
+P295,EXCLUDED,in_package,,,{},Priced in package row P323 (Helios Phases I-III).
