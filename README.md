@@ -4,7 +4,7 @@ A dataset of signed AI data center leases from SEC filings (2024–2026), with t
 
 Every number has the exact sentence from its source filing. A script downloads each filing and checks that the sentence is in it and that the number is in the sentence.
 
-Blog post: [link]
+Blog post: https://www.aadhavrajesh.com/posts/ai-datacenter-leases/
 
 ## Data
 
@@ -45,4 +45,4 @@ Listed landlords that file with the SEC only. Only leases that disclose terms ca
 
 ## License
 
-[choose: e.g. MIT for code, CC BY 4.0 for data]
+MIT for code, CC BY 4.0 for data
