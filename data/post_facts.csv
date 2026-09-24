@@ -1,0 +1,4 @@
+key,as_of,value,unit,doc_id,evidence
+coreweave_contract_duration,2025-12-31,5,years,D20,"As of December 31, 2025, our committed contracts had a weighted-average contract duration of approximately five years"
+coreweave_gpu_useful_life,2023-01-01,6,years,D20,changed its estimate of the useful life for its computing equipment utilized in data centers from five to six years
+coreweave_operating_lease_term,2025-12-31,11,years,D20,Weighted-average remaining lease term (in years): Operating leases 11 9 8

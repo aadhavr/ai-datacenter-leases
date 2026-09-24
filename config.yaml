@@ -55,7 +55,7 @@ sensitivity_kw_per_gpu: [1.2, 1.4, 1.6, 1.8, 2.0, 2.2, 2.4, 2.6]
 xbrl_tolerance_musd: 1.0
 
 # Data files whose rows carry an exact evidence phrase; verify.py checks each phrase in its source.
-evidence_files: [kpis.csv, power_definitions.csv, power_deals.csv, power_ramp.csv, calibration.csv]
+evidence_files: [kpis.csv, power_definitions.csv, power_deals.csv, power_ramp.csv, calibration.csv, post_facts.csv]
 
 # ---------------------------------------------------------------- Lease panel
 leases:
